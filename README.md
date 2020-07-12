@@ -9,7 +9,7 @@ npm install -g typescript
 npm install -g ts-node-dev
 ```
 
-1. Compilar
+3. Compilar
 ```typescript
 tsc file.ts
 ```
