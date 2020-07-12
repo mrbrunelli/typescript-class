@@ -8,13 +8,17 @@ npm install -g typescript
 ```bash
 npm install -g ts-node-dev
 ```
+3. Iniciar o tsconfig.json
+```typescript
+tsc --init
+```
 
-3. Compilar
+4. Compilar
 ```typescript
 tsc file.ts
 ```
 
-4. Executar
+5. Executar
 ```typescript
 ts-node-dev --respawn --transpile-only file.ts
 // Ou apenas
